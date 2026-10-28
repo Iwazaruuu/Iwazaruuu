@@ -1,0 +1,5 @@
+# Keep the repo language bar about the code, not the banner artwork.
+assets/*.svg linguist-documentation
+
+# One line ending everywhere, so the daily Action does not fight Windows checkouts.
+* text=auto eol=lf

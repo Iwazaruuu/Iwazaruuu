@@ -51,9 +51,9 @@
   <line x1="48" y1="330" x2="832" y2="330" stroke="#ffffff10"/>
 
   <g font-family="'Helvetica Neue', Arial, sans-serif" text-anchor="middle" fill="#f6f4fb">
-    <text x="155" y="378" font-size="34" font-weight="600">5</text>
-    <text x="345" y="378" font-size="34" font-weight="600">26</text>
-    <text x="535" y="378" font-size="34" font-weight="600">5</text>
+    <text x="155" y="378" font-size="34" font-weight="600">4</text>
+    <text x="345" y="378" font-size="34" font-weight="600">25</text>
+    <text x="535" y="378" font-size="34" font-weight="600">4</text>
     <text x="725" y="378" font-size="34" font-weight="600">2022</text>
   </g>
   <g font-family="'SF Mono', Menlo, Consolas, monospace" text-anchor="middle" letter-spacing="3.2" font-size="9" fill="#7a7495">
@@ -68,22 +68,22 @@
   <text x="48" y="450" font-family="'SF Mono', Menlo, Consolas, monospace" font-size="9.5" letter-spacing="3" fill="#8d87a8">STACK ANALYTICS</text>
   <text x="832" y="450" text-anchor="end" font-family="'SF Mono', Menlo, Consolas, monospace" font-size="9" letter-spacing="1.4" fill="#545070">by bytes &#183; public repos</text>
 
-  <rect x="48.0" y="462" width="517.4" height="6" fill="#41b883" clip-path="url(#barClip)"/>
-  <rect x="565.4" y="462" width="117.6" height="6" fill="#2f6f9e" clip-path="url(#barClip)"/>
-  <rect x="683.0" y="462" width="101.9" height="6" fill="#3572a5" clip-path="url(#barClip)"/>
-  <rect x="785.0" y="462" width="47.0" height="6" fill="#e34c26" clip-path="url(#barClip)"/>
+  <rect x="48.0" y="462" width="595.8" height="6" fill="#41b883" clip-path="url(#barClip)"/>
+  <rect x="643.8" y="462" width="133.3" height="6" fill="#2f6f9e" clip-path="url(#barClip)"/>
+  <rect x="777.1" y="462" width="39.2" height="6" fill="#e34c26" clip-path="url(#barClip)"/>
+  <rect x="816.3" y="462" width="15.7" height="6" fill="#f1e05a" clip-path="url(#barClip)"/>
 
   <g font-family="'SF Mono', Menlo, Consolas, monospace" font-size="9.5" letter-spacing="1.2" fill="#9a94b4">
     <circle cx="53.0" cy="489" r="3.5" fill="#41b883"/>
-    <text x="64.0" y="492">Vue&#160;66%</text>
+    <text x="64.0" y="492">Vue&#160;76%</text>
     <circle cx="133.0" cy="489" r="3.5" fill="#2f6f9e"/>
-    <text x="144.0" y="492">CSS&#160;15%</text>
-    <circle cx="213.0" cy="489" r="3.5" fill="#3572a5"/>
-    <text x="224.0" y="492">Python&#160;13%</text>
-    <circle cx="311.0" cy="489" r="3.5" fill="#e34c26"/>
-    <text x="322.0" y="492">HTML&#160;4%</text>
+    <text x="144.0" y="492">CSS&#160;17%</text>
+    <circle cx="213.0" cy="489" r="3.5" fill="#e34c26"/>
+    <text x="224.0" y="492">HTML&#160;5%</text>
+    <circle cx="293.0" cy="489" r="3.5" fill="#f1e05a"/>
+    <text x="304.0" y="492">JavaScript&#160;3%</text>
   </g>
 
   <line x1="48" y1="512" x2="832" y2="512" stroke="#ffffff10"/>
-  <text x="440" y="538" text-anchor="middle" font-family="'SF Mono', Menlo, Consolas, monospace" font-size="8.5" letter-spacing="2.6" fill="#4d4961">ASTRAKHAN &#183; UTC+04 &#183; OPEN TO COLLABORATION</text>
+  <text x="440" y="538" text-anchor="middle" font-family="'SF Mono', Menlo, Consolas, monospace" font-size="8.5" letter-spacing="2.6" fill="#6b6685">ASTRAKHAN &#183; UTC+04 &#183; OPEN TO COLLABORATION</text>
 </svg>

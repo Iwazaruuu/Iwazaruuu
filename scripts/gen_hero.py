@@ -59,7 +59,13 @@ def collect(token: str | None) -> dict:
 
     langs: dict[str, int] = {}
     commits = 0
-    public = [r for r in repos if not r.get("fork") and not r.get("archived")]
+    # Skip forks, archived repos and this profile repo itself — otherwise the
+    # banner counts its own two commits and its own SVG/Python files.
+    public = [
+        r
+        for r in repos
+        if not r.get("fork") and not r.get("archived") and r["full_name"].lower() != f"{USER}/{USER}".lower()
+    ]
     for repo in public:
         for name, size in _get_json(f"{API}/repos/{USER}/{repo['name']}/languages", token).items():
             langs[name] = langs.get(name, 0) + int(size)
@@ -197,7 +203,7 @@ def render(data: dict) -> str:
   </g>
 
   <line x1="48" y1="512" x2="832" y2="512" stroke="#ffffff10"/>
-  <text x="440" y="538" text-anchor="middle" font-family="'SF Mono', Menlo, Consolas, monospace" font-size="8.5" letter-spacing="2.6" fill="#4d4961">{FOOTER}</text>
+  <text x="440" y="538" text-anchor="middle" font-family="'SF Mono', Menlo, Consolas, monospace" font-size="8.5" letter-spacing="2.6" fill="#6b6685">{FOOTER}</text>
 </svg>
 '''
 

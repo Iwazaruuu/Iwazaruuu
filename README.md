@@ -15,7 +15,7 @@
 ## Проекты
 
 | Проект | Что это | Стек | Год |
-| --- | --- | --- | --- |
+| :--- | :--- | :--- | ---: |
 | [Iwazaru Portfolio](https://iwazaruuu.github.io/Iwazaru-PR/) | одностраничник-портфолио с GSAP-анимациями, живой на GitHub Pages | Vue 3 · Vite · GSAP | 2026 |
 | [OverDice](https://iwazaruuu.github.io/OverDice) | статический лендинг, собранный и выложенный на GitHub Pages | HTML · CSS · JS | 2022 |
 | [pricelist_comparison](https://github.com/Iwazaruuu/pricelist_comparison) | прототип сравнения прайс-листов: формы, разбор данных | Vue 3 · Vite | 2025 |

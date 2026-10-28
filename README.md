@@ -10,7 +10,7 @@
 
 Делаю бренд-графику: логотипы, оформление сообществ и стримеров, афиши, SMM-макеты.
 
-Пишу внутренние инструменты — сравнение прайсов, разбор выгрузок, автоматизация на Python.
+Пишу внутренние инструменты — разбор выгрузок, автоматизация на Python.
 
 ## Проекты
 
@@ -25,7 +25,7 @@
 ## Стек
 
 **Фронтенд** — Vue 3, Vite, JavaScript, GSAP, CSS
-**Дизайн** — Figma, Photoshop, Illustrator
+**Дизайн** — Photoshop, Illustrator
 **Ещё** — Python, Git, Docker, Linux
 
 ## Связь
@@ -33,4 +33,4 @@
 - GitHub — [@Iwazaruuu](https://github.com/Iwazaruuu)
 - Портфолио — [iwazaruuu.github.io/Iwazaru-PR](https://iwazaruuu.github.io/Iwazaru-PR/)
 
-<sub>Цифры в шапке собираются скриптом <code>scripts/gen_hero.py</code> из GitHub API и обновляются в Actions раз в сутки.</sub>
+
